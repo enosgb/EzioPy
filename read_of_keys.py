@@ -3,6 +3,7 @@ from tkinter.constants import ANCHOR, CENTER, LEFT, RIGHT, TOP
 from tkinter import Widget, ttk
 import types
 import os
+from typing import Sized
 
 window = tk.Tk()
 window.geometry("700x500")
@@ -13,12 +14,12 @@ window.title("Ezio Kill Users")
   #  print(result)
 
 
-columns = ('user','session','name')
+columns = ('user')
 
-tree = ttk.Treeview(window,height=20,columns=columns,show='headings')
+tree = ttk.Treeview(window,columns=columns,show='headings')
 tree.heading('user',text='Usuário')
 
-tree.insert('', 'end', text='user', values=(os.system('qwinsta /server:RDESK02.unifeso.lan')))
+tree.insert('', 'end', text='user', values=(os.popen('qwinsta /server:RDESK02.unifeso.lan').readline()))
 
 
 tree.grid(column=0,row=1)
