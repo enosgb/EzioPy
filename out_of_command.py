@@ -1,6 +1,6 @@
 import os
 from tkinter import *
-Outputfileobject=os.popen("ipconfig /all")
+Outputfileobject=os.popen('qwinsta /server:RDESK02.unifeso.lan')
 Output=Outputfileobject.read()
 Outputfileobject.close()
 root=Tk()

@@ -1,0 +1,33 @@
+ SESSIONNAME       USERNAME                 ID  STATE   TYPE        DEVICE 
+ services                                    0  Disco                       
+ console                                     1  Conn                        
+ rdp-tcp#116       053465                    2  Ativo                       
+ rdp-tcp#56        058736                    8  Ativo                       
+ rdp-tcp#83        025331                   14  Ativo                       
+                   073945                   15  Disco                       
+ rdp-tcp#54        070440                   16  Ativo                       
+ rdp-tcp#14        074561                   18  Ativo                       
+ rdp-tcp#82        038518                   21  Ativo                       
+ rdp-tcp#8         036031                   25  Ativo                       
+ rdp-tcp#123       010212                   26  Ativo                       
+ rdp-tcp#137       027364                   27  Ativo                       
+ rdp-tcp#138       062879                   29  Ativo                       
+ rdp-tcp#139       070580                   30  Ativo                       
+ rdp-tcp#71        058797                   33  Ativo                       
+ rdp-tcp#141       071315                   34  Ativo                       
+ rdp-tcp#91        006736                   35  Ativo                       
+ rdp-tcp#35        073301                   38  Ativo                       
+ rdp-tcp#47        056455                   39  Ativo                       
+ rdp-tcp#112       070865                   40  Ativo                       
+ rdp-tcp#96        063616                   42  Ativo                       
+ rdp-tcp#106       016512                   44  Ativo                       
+ rdp-tcp#109       063952                   45  Ativo                       
+ rdp-tcp#118       012906                   46  Ativo                       
+                   054884                   50  Disco                       
+                   36850052861              51  Disco                       
+ rdp-tcp#57        066149                   53  Ativo                       
+ rdp-tcp#41        031238                   54  Ativo                       
+ rdp-tcp#154       042078                   55  Ativo                       
+ rdp-tcp#79        057355                   56  Ativo                       
+ rdp-tcp#92        064116                   57  Ativo                       
+ rdp-tcp                                 65536  Escutar                      
