@@ -24,10 +24,11 @@ tree.heading('STATE', text='Estado')
 #contacts = []
 #for n in range(1, 100):
 #lista = os.popen('qwinsta /server:RDESK02.unifeso.lan')
-contacts = os.popen("quser /server:10.1.0.29").read()
+teste = 'quser'
+contacts = os.popen(teste+" /server:10.1.0.29").read()
 contacts = contacts.split()
 print(contacts)
-tree.insert('', tk.END, values=(contacts[8],contacts[9],contacts[10],contacts[11]))
+tree.insert('', tk.END, values=(contacts[9],contacts[8],contacts[10],contacts[11]))
 
 
 
@@ -40,9 +41,7 @@ for contact in contacts:
 def item_selected(event):
     for selected_item in tree.selection():
         item = tree.item(selected_item)
-        record = item['values']
-        # show a message
-        showinfo(title='Information', message=','.join(record))
+        print(contacts[10])
 
 
 tree.bind('<<TreeviewSelect>>', item_selected)
