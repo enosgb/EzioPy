@@ -19,17 +19,17 @@ tree.heading('ID', text='ID')
 tree.heading('STATE', text='Estado')
 #tree.heading('TYPE', text='Tipo')
 #tree.heading('DEVICE', text='Dispositivo')
-'''
+
 # generate sample data
 #contacts = []
 #for n in range(1, 100):
 #lista = os.popen('qwinsta /server:RDESK02.unifeso.lan')
 teste = 'quser'
-contacts = os.popen(teste+" /server:10.1.0.29").read()
+contacts = os.popen(teste+" /server:10.1.0.19").read()
 contacts = contacts.split()
 print(contacts)
 tree.insert('', tk.END, values=(contacts[9],contacts[8],contacts[10],contacts[11]))
-'''
+
 
 
 '''

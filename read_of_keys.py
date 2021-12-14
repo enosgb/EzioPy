@@ -28,6 +28,7 @@ tree.grid(column=0,row=1)
 txt_usuario = tk.Text(window, height=1.5, width=75)
 txt_usuario.grid(column = 0, row = 0)
 
+
 btn_buscar_usuario = tk.Button(window, height = 1, width = 10, text="Buscar",padx = 10)
 btn_buscar_usuario.grid(column = 1, row = 0)
 btn_gerar_lista_usuarios = tk.Button(window, height = 1 , width = 10, text="Gerar Usuarios")
