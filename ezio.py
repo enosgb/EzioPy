@@ -179,7 +179,6 @@ def return_usuario(event):
 def finalizar_usuario(event):
     sessao = (item_selected(tree.bind('<<TreeviewSelect>>', item_selected)))
     sessao = str(sessao)
-    '''
     os.system("rwinsta /server:RDESK02.unifeso.lan "+sessao)
     os.system("rwinsta /server:rdsh1.unifeso.lan "+sessao)
     os.system("rwinsta /server:rdsh2.unifeso.lan "+sessao)
@@ -187,13 +186,10 @@ def finalizar_usuario(event):
     os.system("rwinsta /server:rdsh4.unifeso.lan "+sessao)
     os.system("rwinsta /server:rdsh5.unifeso.lan "+sessao)
     os.system("rwinsta /server:rdsh6.unifeso.lan "+sessao)
-   
+    os.system("rwinsta /server:SH1-HCTCO "+sessao)
     os.system("rwinsta /server:SH2-HCTCO "+sessao)
     os.system("rwinsta /server:SH3-HCTCO "+sessao)
-    '''
-    os.system("rwinsta /server:SH1-HCTCO "+sessao)
     print('sessão finalizada')
-
 
 #bind select item treeview
 tree.bind('<<TreeviewSelect>>', item_selected)
