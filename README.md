@@ -7,4 +7,6 @@ for build the program is necessary only the file Ezio.py ,the others files are j
 
 # Prints
 
+![alt text](https://github.com/hun251/EzioPy/blob/main/Prints/tela%201.png)
 
+![alt text](https://github.com/hun251/EzioPy/blob/main/Prints/tela2.png)
