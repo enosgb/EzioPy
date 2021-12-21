@@ -7,7 +7,7 @@ import os
 
 window = Tk()
 window.resizable(height=None,width=None)
-window.title('Ezio Killer')
+window.title('Ezio Killer - Powered by Enos Gabriel ')
 
 
 
@@ -243,4 +243,9 @@ btn_limpar = ttk.Button(window,text='Limpar')
 btn_limpar.bind('<Button-1>', limpar_lista)
 btn_limpar.grid(row=2,column=4,padx=10,pady=10)
 
+#label
+'''
+creditos = Label(window,text = "Powered by    Enos Gabriel                                                                   ",anchor=W)
+creditos.grid(row=3,column=0,padx=10,pady=10)
+'''
 window.mainloop()
