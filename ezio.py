@@ -103,7 +103,7 @@ def busca_usuario(usuario):
             contacts = os.popen('quser '+usuario+' /server:rdsh5.unifeso.lan').read()
             contacts = contacts.split()
             for contact in contacts:
-                username = "RDSH4" 
+                username = "RDSH5" 
                 sessionname = 8+cont
                 id = 10+cont
                 state = 11+cont
@@ -114,7 +114,7 @@ def busca_usuario(usuario):
             contacts = os.popen('quser '+usuario+' /server:rdsh6.unifeso.lan').read()
             contacts = contacts.split()
             for contact in contacts:
-                username = "RDSH5" 
+                username = "RDSH6" 
                 sessionname = 8+cont
                 id = 10+cont
                 state = 11+cont
@@ -125,7 +125,7 @@ def busca_usuario(usuario):
             contacts = os.popen('quser '+usuario+' /server:SH1-HCTCO').read()
             contacts = contacts.split()
             for contact in contacts:
-                username = "RDSH6" 
+                username = "SH1-HCTCO" 
                 sessionname = 8+cont
                 id = 10+cont
                 state = 11+cont
